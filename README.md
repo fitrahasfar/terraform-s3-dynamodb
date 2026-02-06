@@ -37,10 +37,3 @@ terraform apply
 * Encrypted S3 bucket
 * Versioned Terraform state
 * DynamoDB state locking enabled
-
-
-
----
-
-Kalau mau **lebih singkat lagi (1 layar doang)** atau mau **README khusus recruiter / CV**, bilang aja 👌
-```
