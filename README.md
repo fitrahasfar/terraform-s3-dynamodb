@@ -11,10 +11,15 @@ Terraform remote state using **AWS S3** and **DynamoDB** with **least-privilege 
 
 
 terraform-state/
+
 ├── backend.tf
+
 ├── provider.tf
+
 ├── s3.tf
+
 ├── dynamodb.tf
+
 └── variables.tf
 
 
