@@ -1,8 +1,3 @@
-Siap 👍 ini **README.md versi SINGKAT, clean, dan fokus ke code** — cocok banget buat GitHub.
-
----
-
-```md
 # Terraform AWS Remote State
 
 Terraform remote state using **AWS S3** and **DynamoDB** with **least-privilege IAM**.
@@ -13,7 +8,7 @@ Terraform remote state using **AWS S3** and **DynamoDB** with **least-privilege 
 - AWS DynamoDB (state locking)
 
 ## Structure
-```
+
 
 terraform-state/
 ├── backend.tf
@@ -22,7 +17,7 @@ terraform-state/
 ├── dynamodb.tf
 └── variables.tf
 
-````
+
 
 ## IAM
 - IAM User (no admin access)
@@ -30,12 +25,12 @@ terraform-state/
 - DynamoDB table access for state locking
 
 ## Usage
-```bash
+
 aws configure
 terraform init -reconfigure
 terraform plan
 terraform apply
-````
+
 
 ## Result
 
@@ -43,7 +38,7 @@ terraform apply
 * Versioned Terraform state
 * DynamoDB state locking enabled
 
-```
+
 
 ---
 
